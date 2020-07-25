@@ -51,11 +51,15 @@ To fix:
 3) Permanently discard all changes to **all** local files
 `git reset --hard` removes all code that is not commited
 
-**Unstage a file you haven't commited** - if a file was added but not commited
+**Unstage a file you haven't committed** - if a file was added but not committed
 
 To fix:
 1) `git reset HEAD <filename>` or `git reset` to reset all files
 2) The files hasn't changed in the text editor, but the changes are no longer staged
 3) Can stash changes or remove permanently with `git reset --hard`
 
-**Commited changes locally but haven't pushed them** 
+**Committed changes locally but haven't pushed them** - a file was committed but not pushed to GitHub
+
+To fix:
+1) Without modifying history - can revert to a specific commit by id, look at the log `git log` to see the commit id (a very long string of numbers, but we only need the first 7 characters) `git revert <commit-id>` `git revert <commit-id> <filename>`
+2) Modifying history - drop a commit, `git log` to get the 
