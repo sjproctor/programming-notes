@@ -45,11 +45,11 @@ Example: Chuck Norris plugin
 
 Print a Chuck Norris quote in your terminal. Requires fortune and cowsay for additional functionality.
 
-`$ brew install fortune`
+`$ brew install fortune`  
 `$ brew install cowsay`
 Exit and reopen terminal
 
-`$ chuck`
+`$ chuck`  
 `$ chuck_cow`
 
 **End of Line Indicator**  
