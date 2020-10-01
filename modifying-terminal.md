@@ -73,3 +73,5 @@ Window:
 - height and width of terminal window
 
 Set the new profile to be the default on open under the `General` tab.
+
+![terminal](./assets/terminal.png)
