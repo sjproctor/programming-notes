@@ -32,7 +32,7 @@ This file can be modified to update the look and functionality of the Z shell.
 
 The default theme is "robbyrussell" but Oh My Zsh offers hundreds of other themes. Some themes require additional plugins that can be found on the theme documentation.
 
-**Add Plugins**
+**Add Plugins**  
 Oh My Zsh offers many [ plugins ](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) to add functionality to the terminal. The plugins can slow start up time, so only add what you will use. Many plugins offer keyboard shortcuts for often used commands.
 
 By default, Oh My Zsh offers a git plugin to display branch names. Plugins can be added to the list by space separation, no commas.
@@ -46,7 +46,7 @@ Example: Chuck Norris plugin
 Print a Chuck Norris quote in your terminal. Requires fortune and cowsay for additional functionality.
 
 `$ brew install fortune`  
-`$ brew install cowsay`
+`$ brew install cowsay`  
 Exit and reopen terminal
 
 `$ chuck`  
