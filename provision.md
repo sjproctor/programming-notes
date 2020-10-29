@@ -1,11 +1,5 @@
 # Provisioning Snippets
 
-
-
-
-
-
-
 Atom Snippets
 ```
 '.source.js':
@@ -63,3 +57,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 ```
+
+
+![terminal](./assets/terminal.png)
