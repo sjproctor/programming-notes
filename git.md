@@ -62,4 +62,39 @@ To fix:
 
 To fix:
 1) Without modifying history - can revert to a specific commit by id, look at the log `git log` to see the commit id (a very long string of numbers, but we only need the first 7 characters) `git revert <commit-id>` `git revert <commit-id> <filename>`
-2) Modifying history - drop a commit, `git log` to get the 
+2) Modifying history - drop a commit, `git log` to get the
+
+
+### Branching
+Creating a branch will protect your main branch from code that is in process and allows many people to work on the code base at the same time
+1) Checkout a branch `git checkout -b <branch-name>`
+2) Editing the name of a branch you are currently on `git branch -m <new-branch-name>`
+3) Editing the name of a branch you are not currently on `git branch -m <old-branch-name> <new-branch-name>` (the -m is like "move")
+
+### Merge
+To merge code from the command line:
+1) Add/commit code or add/commit/push to branch
+2) Checkout default branch
+3) Merge in the command line `git merge <branch-name>`
+4) Delete branch
+
+Check to see which branches have not been merged `git branch --no-merged`
+Check to see which branches have been merged `git branch --merged`
+
+### Multiple Branches
+Situation: There is a branch that is waiting for approval, but need to start on a new feature.
+1) Go back to the default branch and create a new branch, the code on the other branch will not be there
+2) Create code, it will not matter which branch gets merged first
+
+
+### Merge Conflicts
+Git generally does a good job of merging our code automatically, but every once in a while there is an issue that git doesn't know how to handle. Usually happens when two people change the same line of code, git doesn't know how to handle that issues so it will flag that line as having a conflict. Before you can make any more changes you have to resolve that issue, but the issues only exists on your machine.
+
+
+Situation: Two branches change the same line of code
+- Merge first branch, no problems
+- Merge second branch, merge conflict
+- To go back to the way things were: `git merge --abort`
+- Open text editor to see changes, remove git notations
+- Pick changes to be made manually
+- Add and commit changes

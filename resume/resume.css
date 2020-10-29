@@ -4,8 +4,6 @@ body{
 }
 header{
   text-align: center;
-  color: white;
-  background-image: url("./sky.png");
   margin: 0;
   padding: 0;
   height: 150px;
@@ -20,6 +18,9 @@ aside{
 }
 main{
   margin-right: 30px;
+}
+ul{
+  margin-left: 35%;
 }
 strong{
   font-size: 18px;
