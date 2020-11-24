@@ -10,6 +10,12 @@
 `git stash list` - shows all the stashed code, has a number next to the name
 `git stash apply <stash num>` - adds the stashed code associated with that number
 `git show head` - shows the current current commit you are on, with the id number, the commit message, the changes made to the code
+`git config --global user.name "gracehopper"`
+`git config --global user.email gracehopper@example.com`
+
+Check to see if the username and email were set
+`git config --global user.name`
+`git config --global user.email`
 
 ### Terminology
 `HEAD` - the current commit you are on

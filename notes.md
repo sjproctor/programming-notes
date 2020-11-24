@@ -3,6 +3,7 @@
 - Submodule issues in git: `rm --cashed <directory-name>`
 - Move all the content of a directory up one level: `mv filename/* .` (Be in the outer directory then run the command with the file name of the nested directory)
 - GraphQL - an alternative to a REST API
+- Emojis take up the space of two characters
 
 
 ### Postgres Smash
