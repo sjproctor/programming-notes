@@ -60,3 +60,12 @@ source $ZSH/oh-my-zsh.sh
 
 
 ![terminal](./assets/terminal.png)
+
+
+### Atom Config
+*.atom/config.cson*
+editor:
+  fontSize: 20
+  scrollPastEnd: true
+  softWrap: true
+  showIndentGuide: true
