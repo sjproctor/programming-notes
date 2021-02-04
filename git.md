@@ -1,21 +1,21 @@
 # Git and GitHub
 
 ### Commands
-`git show` - check what has been committed, `:q` to quit
-`git diff <filename>` - see what lines have been added, `:q` to quit
-`git log` - history of changes
-`git stash` - removes all code since the last commit
-`git stash pop` - reapplies the last changes that were stashed (if there are multiple stashes, it applies just the last one in the list)
-`git stash save "message here"`to make the stash easier to find later
-`git stash list` - shows all the stashed code, has a number next to the name
-`git stash apply <stash num>` - adds the stashed code associated with that number
-`git show head` - shows the current current commit you are on, with the id number, the commit message, the changes made to the code
-`git config --global user.name "gracehopper"`
-`git config --global user.email gracehopper@example.com`
+- `git show` - check what has been committed, `:q` to quit
+- `git diff <filename>` - see what lines have been added, `:q` to quit
+- `git log` - history of changes
+- `git stash` - removes all code since the last commit
+- `git stash pop` - reapplies the last changes that were stashed (if there are multiple stashes, it applies just the last one in the list)
+- `git stash save "message here"`to make the stash easier to find later
+- `git stash list` - shows all the stashed code, has a number next to the name
+- `git stash apply <stash num>` - adds the stashed code associated with that number
+- `git show head` - shows the current current commit you are on, with the id number, the commit message, the changes made to the code
+- `git config --global user.name "gracehopper"`
+- `git config --global user.email gracehopper@example.com`
 
 Check to see if the username and email were set
-`git config --global user.name`
-`git config --global user.email`
+- `git config --global user.name`
+- `git config --global user.email`
 
 ### Terminology
 `HEAD` - the current commit you are on
