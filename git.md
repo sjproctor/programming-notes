@@ -105,3 +105,6 @@ Situation: Two branches change the same line of code
 - Open text editor to see changes, remove git notations
 - Pick changes to be made manually
 - Add and commit changes
+
+### Fixing Unrelated Histories
+- $ `git pull origin main --allow-unrelated-histories`
