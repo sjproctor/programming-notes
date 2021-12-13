@@ -63,6 +63,8 @@ source $ZSH/oh-my-zsh.sh
 
 
 ### Atom Config
+- Install `atom-beautify`
+- Install 'minimap`
 `~/.atom/config.cson`
 ```
 editor:
