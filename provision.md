@@ -63,9 +63,11 @@ source $ZSH/oh-my-zsh.sh
 
 
 ### Atom Config
-*.atom/config.cson*
+`~/.atom/config.cson`
+```
 editor:
   fontSize: 20
   scrollPastEnd: true
   softWrap: true
   showIndentGuide: true
+```
