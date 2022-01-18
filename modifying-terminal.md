@@ -2,7 +2,7 @@
 
 ### Oh-My-Zsh
 
-[ Oh My Zsh ](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your Zsh configuration. --Oh My Zsh docs
+[Oh My Zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your Zsh configuration. --Oh My Zsh docs
 
 The Z shell (also known as zsh) is a Unix shell that is built on top of bash with additional features. It's recommended to use zsh over bash. It's also highly recommended to install a framework with zsh as it makes dealing with configuration, plugins and themes a lot nicer. Functionality can be added through a brew command
 
